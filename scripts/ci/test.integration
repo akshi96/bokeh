@@ -3,5 +3,5 @@
 set -e # exit on error
 set -x # echo commands
 
-py.test -m integration \
+py.test -v -m integration \
     --driver chrome
